@@ -1,0 +1,110 @@
+@import 'styles/variables';
+
+.content
+{
+    color: white;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin-top: 80px;
+    max-width: 620px;
+}
+
+.logo
+{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logoText
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 44px;
+    margin-left: 20px;
+}
+
+.heading
+{
+    position: relative;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+    padding: 10px 20px;
+    margin-left: 64px;
+}
+
+
+.desc
+{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+    margin-left: 64px;
+}
+
+.action
+{
+    padding: 20px 20px;
+    margin-left: 64px;
+}
+
+.footer
+{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    margin-left: 64px;
+}
+
+@media (max-width: $screen-sm-min) {
+    .content
+    {
+        margin-top: 40px;
+    }
+    
+    .logo
+    {
+        padding: 5px 10px;
+    }
+    
+    .logoText
+    {
+        font-size: 36px;
+        line-height: 36px;
+        margin-left: 10px;
+    }
+    
+    .heading
+    {
+        font-size: 36px;
+        line-height: 44px;
+        padding: 10px 10px;
+        margin-left: 10px;
+    }
+    
+    
+    .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 10px;
+        margin-left: 10px;
+    }
+    
+    .action
+    {
+        padding: 20px 10px;
+        margin-left: 10px;
+    }
+    
+    .footer
+    {
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        margin-left: 10px;
+    }
+    
+}

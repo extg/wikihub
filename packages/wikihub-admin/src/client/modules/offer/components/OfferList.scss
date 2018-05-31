@@ -1,0 +1,33 @@
+.OfferHeader
+{
+    display: flex;
+    justify-content: space-between;
+    
+    .actionIcons
+    {
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #868e96;
+        min-width: 50px;
+        
+        & .actionLink > svg
+        {
+            transition: transform 300ms cubic-bezier(.4,0,.2,1);
+        }
+        
+        & .actionLink:not(:first-child)
+        {
+            margin-left: 3px;
+        }
+        
+        & .actionRecover
+        {
+            pointer-events: auto;
+            
+            & > svg {
+                transform: rotate(135deg);
+            }
+        }
+    }
+}

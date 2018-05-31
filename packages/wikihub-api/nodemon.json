@@ -1,0 +1,12 @@
+{
+  "verbose": true,
+  "delay": "500",
+  "ext": "*.js,*.js",
+  "ignore": [
+    ".git",
+    "docs",
+    "storage",
+    "public",
+    "src/data"
+  ]
+}

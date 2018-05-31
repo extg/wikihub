@@ -1,0 +1,17 @@
+.ReactModal__Overlay {
+    transition: all 200ms cubic-bezier(.4, 0, .2, 1);
+
+    transform: translateY(-100%);
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    transform: translateY(0);
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open.ReactModal__Overlay--before-close {
+    transform: translateY(-100%);
+}
+
+.ReactModal__Content {
+    display: flex;
+    flex-direction: column;
+}

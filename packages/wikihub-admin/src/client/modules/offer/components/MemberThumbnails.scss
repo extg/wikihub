@@ -1,0 +1,42 @@
+$size: 32px;
+$borderRadius: 3px;
+
+.root
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnail
+{
+    display: block;
+}
+
+.thumbnail
+{
+    width: $size;
+    height: $size;
+}
+
+.img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumbnail {
+    border: $borderRadius solid #f8f9fa; /* цвет фона */
+    border-radius: ($size + $borderRadius * 2) / 2;
+    overflow: hidden;
+}
+
+.thumbnail:first-child
+{
+    margin-left: -$borderRadius;
+}
+
+.thumbnail + .thumbnail
+{
+    margin-left: ($size + $borderRadius * 2) / -3;
+}

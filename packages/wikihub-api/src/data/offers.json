@@ -1,0 +1,533 @@
+[
+  {
+    "deleted": true,
+    "id": "a1",
+    "title": "Предложение экспертов на мероприятие",
+    "description": "Это предложение специально для ГК Атлас",
+    "expires": "Дата по наступлению которой подборка становиться скрытой / недействительной",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": "Возьмите его, он хороший"
+      },
+      {
+        "memberId": 2,
+        "comment": "Хорошо выступает, много всего знает"
+      },
+      {
+        "memberId": 3,
+        "comment": "Хорошо выступает на публике"
+      },
+      {
+        "memberId": 4,
+        "comment": "Поможет с привлечением аудитории"
+      }
+    ]
+  },
+  {
+    "id": "b2",
+    "title": "Предложение эксперта",
+    "description": "Мы предлагаем всего одного эксперта, зато какого",
+    "expires": "Дата по наступлению которой подборка становиться скрытой / недействительной",
+    "deleted": true,
+    "items": [
+      {
+        "memberId": 5,
+        "comment": "Возьмите его, он хороший"
+      }
+    ]
+  },
+  {
+    "id": "с3",
+    "title": "Опытные спикеры",
+    "description": "Эти эксперты всегда знают очем рассказать и умеют работать с любой аудиторией",
+    "expires": "Дата по наступлению которой подборка становиться скрытой / недействительной",
+    "deleted": true,
+    "items": [
+      {
+        "memberId": 6,
+        "comment": null
+      },
+      {
+        "memberId": 7,
+        "comment": null
+      },
+      {
+        "memberId": 8,
+        "comment": null
+      },
+      {
+        "memberId": 9,
+        "comment": null
+      },
+      {
+        "memberId": 10,
+        "comment": null
+      },
+      {
+        "memberId": 11,
+        "comment": null
+      },
+      {
+        "memberId": 12,
+        "comment": null
+      }
+    ]
+  },
+  {
+    "deleted": true,
+    "id": "b2342",
+    "title": "Финансисты",
+    "description": "Знаю про деньги все что надо",
+    "expires": "Дата по наступлению которой подборка становиться скрытой / недействительной",
+    "items": [
+      {
+        "memberId": 6,
+        "comment": null
+      },
+      {
+        "memberId": 7,
+        "comment": null
+      },
+      {
+        "memberId": 8,
+        "comment": null
+      }
+    ]
+  },
+  {
+    "deleted": true,
+    "id": "b23432",
+    "title": "Предприниматели со стажем",
+    "description": null,
+    "expires": "Дата по наступлению которой подборка становиться скрытой / недействительной",
+    "items": [
+      {
+        "memberId": 15,
+        "comment": null
+      },
+      {
+        "memberId": 16,
+        "comment": null
+      },
+      {
+        "memberId": 17,
+        "comment": null
+      },
+      {
+        "memberId": 18,
+        "comment": null
+      },
+      {
+        "memberId": 19,
+        "comment": null
+      },
+      {
+        "memberId": 20,
+        "comment": null
+      }
+    ]
+  },
+  {
+    "deleted": true,
+    "id": "b2312432",
+    "title": "То что вам нужно",
+    "description": "Это те кого вы ищете",
+    "expires": "Дата по наступлению которой подборка становиться скрытой / недействительной",
+    "items": [
+      {
+        "memberId": 15,
+        "comment": null
+      },
+      {
+        "memberId": 16,
+        "comment": null
+      },
+      {
+        "memberId": 17,
+        "comment": null
+      },
+      {
+        "memberId": 18,
+        "comment": null
+      },
+      {
+        "memberId": 19,
+        "comment": null
+      },
+      {
+        "memberId": 20,
+        "comment": null
+      }
+    ]
+  },
+  {
+    "title": "Нужно как-то было дополнить список",
+    "description": "Просто кто-то",
+    "items": [
+      {
+        "memberId": 21,
+        "comment": "asd"
+      },
+      {
+        "memberId": 22,
+        "comment": "dsa"
+      },
+      {
+        "memberId": 23,
+        "comment": "s"
+      },
+      {
+        "memberId": 24,
+        "comment": "11-"
+      }
+    ],
+    "deleted": true,
+    "id": "b432",
+    "expires": "Дата по наступлению которой подборка становиться скрытой / недействительной"
+  },
+  {
+    "id": "729320380eb883b0a1051526ff428784",
+    "deleted": true,
+    "title": "test1",
+    "description": "test2",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": "test3"
+      },
+      {
+        "memberId": 5,
+        "comment": "test5"
+      }
+    ]
+  },
+  {
+    "id": "ba9ac1faca18e7c5b5a55b9a1fb46eb4",
+    "deleted": true,
+    "title": "test1",
+    "description": "test2",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": "test3"
+      },
+      {
+        "memberId": 5,
+        "comment": "test4"
+      }
+    ]
+  },
+  {
+    "title": "test",
+    "description": "test22",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": "as"
+      },
+      {
+        "memberId": 4,
+        "comment": "df"
+      }
+    ],
+    "id": "cd7fd70c12a0bfdb4f1fbdcc18ced76a",
+    "deleted": true
+  },
+  {
+    "id": "f181e3cad05757934291cc4c8586f35a",
+    "deleted": true,
+    "title": "tette",
+    "description": "adds",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "55168790d58e9e8367c27686eb0cf944",
+    "deleted": true,
+    "title": "qwe",
+    "description": "asd",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": "zxc"
+      }
+    ]
+  },
+  {
+    "id": "fea0a2ec3913452c5386458cc26fa107",
+    "deleted": true,
+    "title": "qweasd",
+    "description": "",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": "ccomm"
+      }
+    ]
+  },
+  {
+    "id": "43ffcf860478a9c7fe6f141faa375d99",
+    "deleted": true,
+    "title": "adasda",
+    "description": "asdasd",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "0690392b1721192895901c274915555b",
+    "deleted": true,
+    "title": "adasd",
+    "description": "фывфы",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "eab3297d479b93d748a694b0cb2bb0ac",
+    "deleted": true,
+    "title": "asdasd",
+    "description": "adasd",
+    "items": [
+      {
+        "memberId": 2,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "203287568aea51956f380ae6b60016ab",
+    "deleted": true,
+    "title": "asdasd",
+    "description": "adasd1",
+    "items": [
+      {
+        "memberId": 2,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "deleted": true,
+    "id": "77ca383b96b0bd9564911aca333b73b1",
+    "title": "qwertyui",
+    "description": "",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "04d9b98c404d91d5e296576caea98f49",
+    "deleted": true,
+    "title": "qwertyui1",
+    "description": "",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "6d2ecad86b7afbe5afef7944c34d8e23",
+    "deleted": true,
+    "title": "aaaaaaaaaa",
+    "description": "aaaa",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "title": "xccbvn",
+    "description": "",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ],
+    "id": "aaf5c4bc028495b9db6fdfaa7c1f42f3",
+    "deleted": true
+  },
+  {
+    "title": "ячсмить",
+    "description": "йцукенгш",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ],
+    "id": "19d15f7f39b7d05314624411dbc3657a",
+    "deleted": true
+  },
+  {
+    "id": "77bd2c45c15dd237e4bcdb524b99776d",
+    "deleted": true,
+    "title": "zxzcxasdasd",
+    "description": "",
+    "items": [
+      {
+        "memberId": 2,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "225b6b8b8e6492a671651dd2c2c28ff9",
+    "deleted": true,
+    "title": "asd",
+    "description": "asd",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "f89840dd49c7c6ddf373a4d0a06566f6",
+    "deleted": true,
+    "title": "asdasd",
+    "description": "asd",
+    "items": [
+      {
+        "memberId": 2,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "206ac73b71cd4cc17913da882af75350",
+    "deleted": true,
+    "title": "asdasd",
+    "description": "asdasd",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "eedf3f43cfe39b27795bad0084015a73",
+    "deleted": true,
+    "title": "asdasd",
+    "description": "",
+    "items": [
+      {
+        "memberId": 3,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "title": "asdas",
+    "description": "asdasd",
+    "items": [
+      {
+        "memberId": 3,
+        "comment": ""
+      }
+    ],
+    "id": "2483cfe39a710b89ba3789dd3a9e3f9d",
+    "deleted": true
+  },
+  {
+    "id": "b8add24abd467a148e51f99d784ef646",
+    "deleted": true,
+    "title": "asasdgg",
+    "description": "",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "8be37085a5122000858e634c3e98d2ec",
+    "deleted": true,
+    "title": "asdasdad",
+    "description": "",
+    "items": [
+      {
+        "memberId": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "2dff5f064813eb9aa78f00b601011a11",
+    "deleted": true,
+    "title": "ktttrth",
+    "description": "",
+    "items": [
+      {
+        "memberId": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "id": "48b1d8bf25d747b2c3b1480e9cb3bc5f",
+    "deleted": true,
+    "title": "gsdfgsdgf",
+    "description": "",
+    "items": [
+      {
+        "memberId": 4,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "title": "trersdasdasdasd",
+    "description": "sdfsdfsdf",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": ""
+      }
+    ],
+    "id": "8c00572c807f65dea4c6a1ec965ca273",
+    "deleted": false
+  },
+  {
+    "title": "ПМЭФ",
+    "description": "первичный список",
+    "items": [
+      {
+        "memberId": 1,
+        "comment": "asdasd"
+      },
+      {
+        "memberId": 4,
+        "comment": ""
+      },
+      {
+        "memberId": 6,
+        "comment": ""
+      }
+    ],
+    "id": "394b4eac02091a7d4cd7e7ed6ee0f22b",
+    "deleted": false
+  }
+]

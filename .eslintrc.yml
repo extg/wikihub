@@ -1,0 +1,37 @@
+---
+# 0 = off, 1 = warn, 2 = error
+
+extends: airbnb
+env:
+  browser: true
+  node: true
+
+settings:
+  import/extensions:
+    - .js
+  import/ignore:
+    - \.(scss|css)$
+
+plugins:
+  - import
+
+rules:
+  semi: [error, never]
+  comma-dangle: [error, always-multiline]
+  object-curly-spacing: [error, never]
+  arrow-parens: [error, as-needed]
+  func-names: off
+
+
+  # Разрешить указывать пакеты из devDependencies (нужно для дев сборки)
+  import/no-extraneous-dependencies: [error, {devDependencies: true}]
+  import/no-unresolved: [error, {ignore: [styles]}]
+  import/extensions: off
+
+  react/jsx-filename-extension: off
+  react/jsx-tag-spacing: [error, {beforeSelfClosing: never}]
+
+  # FIXME
+  react/prop-types: off
+  jsx-quotes: single
+

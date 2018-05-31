@@ -1,0 +1,34 @@
+@import 'styles/variables';
+@import 'styles/colors';
+
+.root {
+    display: flex;
+    flex-direction: column;
+    
+    @media (max-width: $screen-sm-min) {
+        .content {
+            display: none;
+        }
+        
+        &.open {
+            .content {
+                display: block;
+                padding: 10px 0;
+            }
+        }
+        
+        .toggler {
+            font-size: 14px;
+            line-height: 18px;
+            
+            padding:  5px 0;
+            text-decoration: underline;
+            cursor: pointer;
+            color: #adb5bd;
+        }
+    }
+    
+    @media (min-width: $screen-sm-min) {
+        display: none;
+    }
+}

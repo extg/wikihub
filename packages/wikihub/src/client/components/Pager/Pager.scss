@@ -1,0 +1,23 @@
+@import "styles/colors";
+
+.Pager {
+    list-style: none;
+    display: flex;
+    padding: 20px 0;
+    
+    .PagerItem {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ced4da;
+        background: #fff;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        
+        &.isActive {
+        
+        }
+    }
+}

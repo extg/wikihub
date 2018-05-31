@@ -1,0 +1,102 @@
+// implements by https://snook.ca/archives/html_and_css/simplest-css-slideshow
+
+.root::after
+{
+    content: '\A';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bg
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-color: #000;
+    color: #fff;
+    
+    animation-name: fade;
+    animation-duration: 110s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.bg:nth-child(1)
+{
+    background-image: url('./bg/0.jpg');
+}
+
+.bg:nth-child(2)
+{
+    background-image: url('./bg/1.jpg');
+    animation-delay: 11s;
+}
+
+.bg:nth-child(3)
+{
+    background-image: url('./bg/2.jpg');
+    animation-delay: 22s;
+}
+
+.bg:nth-child(4)
+{
+    background-image: url('./bg/3.jpg');
+    animation-delay: 33s;
+}
+
+.bg:nth-child(5)
+{
+    background-image: url('./bg/4.jpg');
+    animation-delay: 44s;
+}
+
+.bg:nth-child(6)
+{
+    background-image: url('./bg/5.jpg');
+    animation-delay: 55s;
+}
+
+.bg:nth-child(7)
+{
+    background-image: url('./bg/6.jpg');
+    animation-delay: 66s;
+}
+
+.bg:nth-child(8)
+{
+    background-image: url('./bg/7.jpg');
+    animation-delay: 77s;
+}
+
+.bg:nth-child(9)
+{
+    background-image: url('./bg/8.jpg');
+    animation-delay: 88s;
+}
+
+.bg:nth-child(10)
+{
+    background-image: url('./bg/9.jpg');
+    animation-delay: 99s;
+}
+
+@keyframes fade {
+    0%   { opacity: 0; }
+    1.1%   { opacity: 1; }
+    11%  { opacity: 1; }
+    12.1%  { opacity: 0; }
+    100% { opacity: 0; }
+}
